@@ -43,10 +43,10 @@ Perfect for beginners to understand form styling, layout centering, and UI desig
 - Smooth hover and focus effects  
 - Fully responsive design  
 
-### 🎥 Tutorial
+### Tutorial
 Watch the full step-by-step tutorial on my [YouTube Channel](https://www.youtube.com/@DeveloperShaurya)
 
-### 📖 Blog Article
+### Blog Article
 Read the complete guide on [developershaurya.com](https://developershaurya.com)
 
 ---
@@ -62,14 +62,11 @@ Hey! I’m **Shaurya**, a passionate web developer & content creator.
 I help beginners learn web development through **real-world projects**.  
 If you want to **master HTML & CSS**, keep building along with me 
 
-- 🌐 Website: [developershaurya.com](https://developershaurya.com)  
-- 🎥 YouTube: [@DeveloperShaurya](https://www.youtube.com/@DeveloperShaurya)  
-- 💬 Telegram: [Join Community](https://t.me/developer_shaurya)  
-- 💻 GitHub: [DeveloperShaurya7](https://github.com/DeveloperShaurya7)
+- Website: [developershaurya.com](https://developershaurya.com)  
+- YouTube: [@DeveloperShaurya](https://www.youtube.com/@DeveloperShaurya)  
+- Telegram: [Join Community](https://t.me/developer_shaurya)  
+- GitHub: [DeveloperShaurya7](https://github.com/DeveloperShaurya7)
 
 ---
 
 ⭐ **Star this repo** if you found it helpful and follow for more upcoming tutorials!
-```
-
----
