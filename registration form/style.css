@@ -1,0 +1,112 @@
+/* Import Google Fonts: Poppins and Roboto for modern typography */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Reset and global styles */
+* {
+    box-sizing: border-box; /* Includes padding and border in element's total width/height */
+    margin: 0;               /* Remove default margin */
+    padding: 0;              /* Remove default padding */
+    font-family: 'Roboto', sans-serif; /* Default font for the page */
+}
+
+/* Body styling */
+body {
+    height: 100vh; /* Full viewport height */
+    display: flex; /* Use Flexbox to center content */
+    justify-content: center; /* Horizontal centering */
+    align-items: center; /* Vertical centering */
+    background: linear-gradient(135deg, #6a11cb, #2575fc); /* Modern gradient background */
+}
+
+/* Container for the form */
+.container {
+    background-color: #fff; /* White background for the form */
+    border-radius: 12px; /* Rounded corners */
+    padding: 40px; /* Internal spacing */
+    width: 100%; /* Full width up to max-width */
+    max-width: 600px; /* Limit width on large screens */
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2); /* Soft shadow for 3D effect */
+}
+
+/* Form header/title */
+.registration-form h2 {
+    text-align: center; /* Center the heading text */
+    margin-bottom: 30px; /* Space below the heading */
+    color: #333; /* Dark gray text color */
+}
+
+/* Grouping each input and label */
+.input-group {
+    margin-bottom: 20px; /* Space between fields */
+    display: flex; /* Flexbox for vertical stacking */
+    flex-direction: column; /* Column layout: label on top, input below */
+}
+
+/* Label styling */
+.input-group label {
+    margin-bottom: 5px; /* Space between label and input */
+    font-weight: 500; /* Medium font weight */
+    color: #555; /* Gray color for label */
+}
+
+/* Input field styling */
+.input-group input {
+    padding: 12px 15px; /* Internal spacing for text */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 8px; /* Rounded corners for input */
+    font-size: 16px; /* Comfortable font size */
+    transition: all 0.3s ease; /* Smooth animation for hover/focus effects */
+}
+
+/* Input focus effect */
+.input-group input:focus {
+    border-color: #2575fc; /* Blue border on focus */
+    box-shadow: 0 0 8px rgba(37, 117, 252, 0.4); /* Glow effect */
+    outline: none; /* Remove default browser outline */
+}
+
+/* Submit button styling */
+button {
+    width: 100%; /* Full width button */
+    padding: 12px; /* Internal spacing */
+    background: linear-gradient(135deg, #6a11cb, #2575fc); /* Gradient button background */
+    border: none; /* Remove default border */
+    border-radius: 8px; /* Rounded corners */
+    color: #fff; /* White text */
+    font-size: 18px; /* Larger font for readability */
+    font-weight: 500; /* Medium font weight */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: all 0.3s ease; /* Smooth hover animation */
+}
+
+/* Button hover effect */
+button:hover {
+    opacity: 0.9; /* Slight transparency on hover */
+    transform: translateY(-2px); /* Lift button slightly */
+}
+
+/* Text below form for login link */
+.login-link {
+    text-align: center; /* Center align text */
+    margin-top: 15px; /* Space above the link */
+    color: #555; /* Gray text color */
+}
+
+/* Link inside the login text */
+.login-link a {
+    color: #2575fc; /* Blue link color */
+    text-decoration: none; /* Remove underline */
+    font-weight: 500; /* Medium font weight */
+}
+
+/* Hover effect for the link */
+.login-link a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Responsive design for small screens */
+@media (max-width: 500px) {
+    .container {
+        padding: 30px 20px; /* Reduce padding on small screens */
+    }
+}
