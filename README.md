@@ -13,7 +13,7 @@ Here, you’ll find all the projects built using **HTML** and **CSS** — simple
 
 html-css-project/
 |
-├── /login-page
+├── /project name
 │   ├── index.html
 │   ├── style.css
 │   └── /assets
@@ -32,16 +32,11 @@ Each folder under this repo contains:
 
 ---
 
-## Project 1 — Login Page
+## Projects
+1. Login page
+2. Infinite Scroll Animation
+3. Registration form
 
-A clean, responsive **Login / Sign-In Page** built using pure **HTML** and **CSS**.  
-Perfect for beginners to understand form styling, layout centering, and UI design fundamentals.
-
-### Features
-- Modern gradient background  
-- Centered card layout  
-- Smooth hover and focus effects  
-- Fully responsive design  
 
 ### Tutorial
 Watch the full step-by-step tutorial on my [YouTube Channel](https://www.youtube.com/@DeveloperShaurya)
